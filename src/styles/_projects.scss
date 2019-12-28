@@ -2,11 +2,11 @@
   margin: auto;
 }
 
-// .projects {
-//   margin-top: 1em;
-// }
+.projects {
+  margin-top: 1em;
+}
 
-@media only screen and (max-width: 1265px) {
+@media only screen and (max-width: 1230px) {
   .projects {
     border-radius: 10px;
     overflow-y: scroll;

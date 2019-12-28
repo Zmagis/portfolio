@@ -3,10 +3,6 @@ import React from "react";
 import { logos } from "./Lists";
 
 function AboutMe() {
-  const handleClick = () => {
-    console.log("clicked");
-  };
-
   return (
     <div id="about" className="container-fluid text-center d-flex screen  ">
       <div className=" h-75 d-flex flex-column align-items-center justify-content-center projects-container about">
@@ -32,10 +28,6 @@ function AboutMe() {
             doubt I can reach everything I want wiith a positivity boost along.
           </p>
         </div>
-
-        {/* <button className="btn btn-primary pl-3 pr-3" onClick={handleClick}>
-          More
-        </button> */}
       </div>
     </div>
   );

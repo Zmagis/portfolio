@@ -4,8 +4,6 @@ import Card from "./FlippingCard";
 import { list } from "./Lists";
 
 function Projects() {
-  console.log(window.innerWidth);
-
   return (
     <div id="projects" className="container-fluid text-center d-flex screen ">
       <div className="w-85 h-75 d-flex flex-column align-items-center justify-content-center projects-container">
@@ -13,11 +11,10 @@ function Projects() {
           <h2>Projects</h2>
         </div>
 
-        <div className="d-flex flex-wrap">
+        <div className="d-flex flex-wrap align-items-center justify-content-center projects">
           {list.map(project => (
-            <div className="">
+            <div key={project.id} className="">
               <Card
-                key={project.id}
                 title={project.name}
                 image={project.img}
                 description={project.description}
