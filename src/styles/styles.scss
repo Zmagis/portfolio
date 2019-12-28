@@ -1,0 +1,74 @@
+@import "./nav";
+@import "./greetingPhotos";
+@import "./projects";
+@import "./flippinCard";
+
+@mixin bg-image($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+* {
+  font-family: "Inria Serif", serif !important;
+  color: rgb(217, 220, 230);
+  ::selection {
+    color: rgb(34, 113, 133);
+    background: rgb(255, 255, 255);
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+body {
+  height: 100vh;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.logo {
+  height: 4rem;
+  width: 3rem;
+  filter: drop-shadow(2px 4px 2px #0008);
+}
+
+.zmagis:hover {
+  filter: drop-shadow(2px 4px 2px rgba(201, 190, 190, 0.533));
+}
+
+.screen {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.about {
+  // width: 40% !important;
+  background: rgba(24, 16, 1, 0.418);
+  border-radius: 10px;
+}
+
+#contact {
+  @include bg-image("../Images/stars-bg.jpg");
+  letter-spacing: 0.2em;
+  .contact {
+    background-color: rgba(17, 34, 65, 0.76);
+  }
+}
+
+#projects {
+  @include bg-image("../Images/birds-bg.jpg");
+  h2 {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.918));
+    font-size: 2.8rem;
+  }
+  h4,
+  p {
+    color: rgb(54, 53, 53);
+  }
+}
+#about {
+  @include bg-image("../Images/mountain-bg.jpg");
+}
