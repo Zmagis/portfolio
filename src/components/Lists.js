@@ -1,7 +1,8 @@
-// import heart from "../Images/zmagis.JPG";
+import heart from "../Images/zmagis.JPG";
 import Lust from "../Images/projects/Lust.png";
 import Chat from "../Images/projects/chat.png";
 import QuoteMachine from "../Images/projects/Qoute.png";
+import Promises from "../Images/projects/promises.png";
 
 import html from "../Images/logos/html.png";
 import css from "../Images/logos/css.png";
@@ -13,6 +14,15 @@ import gimp from "../Images/logos/gimp.png";
 import sass from "../Images/logos/sass.png";
 
 export const list = [
+  {
+    id: 4,
+    name: "New Year - Fresh Start",
+    description:
+      '"Be miserable. Or motivate yourself. Whatever has to be done, it’s always your choice." Wayne Dyer',
+    img: Promises,
+    link: "https://condescending-boyd-992176.netlify.com/",
+    github: "https://github.com/Zmagis/New-Year-Promises"
+  },
   {
     id: 3,
     name: "Lust",
@@ -37,6 +47,14 @@ export const list = [
     img: QuoteMachine,
     link: "https://nervous-kirch-642b5a.netlify.com",
     github: "https://github.com/Zmagis/Qoute-Machine-"
+  },
+  {
+    id: 0,
+    name: "New Project",
+    description: "Currently building...",
+    img: heart,
+    link: "https://.netlify.com",
+    github: "https://github.com/"
   }
 ];
 

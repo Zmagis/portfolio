@@ -112,7 +112,6 @@ nav {
 .projectImg {
   height: 100%;
   width: auto;
-  border: ridge #a0a8c5 4px;
 }
 
 .back {
@@ -124,8 +123,8 @@ nav {
 }
 
 .front {
-  background-color: #2c2b2b;
-  background-color: transparent !important;
+  background-color: #2c2b2b !important;
+  border: ridge #a0a8c5 4px;
 }
 
 .flip-card {
