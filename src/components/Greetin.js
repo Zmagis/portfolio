@@ -21,9 +21,10 @@ function Greeting() {
         <img className="round-photo1 img-responsive m-5" src={rightL} alt="" />
         <img className="round-photo2 img-responsive m-5" src={rightS} alt="" />
 
-        <p className="mt-2 ml-5 mr-5">
-          Mostly I have focused on React JavaScript but I'm eager to get out of
-          my comfort zone and learn more! Check out my projects!
+        <p className="m-auto w-50">
+          I'm self taught front-end developer and I'm looking for opportunities
+          to get out of my comfort zone. React JavaScript is where I have spend
+          most of my time but I'm always eager to learn new technologies.
         </p>
       </div>
     </div>
