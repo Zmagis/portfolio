@@ -22,9 +22,10 @@ function Greeting() {
         <img className="round-photo2 img-responsive m-5" src={rightS} alt="" />
 
         <p className="m-auto w-50">
-          I'm self taught front-end developer and I'm looking for opportunities
-          to get out of my comfort zone. React JavaScript is where I have spend
-          most of my time but I'm always eager to learn new technologies.
+          I'm a self-taught front-end developer and I'm looking for
+          opportunities to get out of my comfort zone. React JavaScript is where
+          I have spent most of my time but I'm always eager to learn new
+          technologies.
         </p>
       </div>
     </div>
