@@ -3,6 +3,7 @@ import Lust from "../Images/projects/Lust.png";
 import Chat from "../Images/projects/chat.png";
 import QuoteMachine from "../Images/projects/Qoute.png";
 import Promises from "../Images/projects/promises.png";
+import Hike from "../Images/projects/TheHike.png";
 
 import html from "../Images/logos/html.png";
 import css from "../Images/logos/css.png";
@@ -15,10 +16,19 @@ import sass from "../Images/logos/sass.png";
 
 export const list = [
   {
+    id: 5,
+    name: "The Hike",
+    description:
+      "“To keep the body in good health is a duty, otherwise we shall not be able to keep our mind strong and clear.” – Buddha",
+    img: Hike,
+    link: "http://debonair-banana.surge.sh/",
+    github: "https://github.com/Zmagis/The-Hike"
+  },
+  {
     id: 4,
     name: "New Year - Fresh Start",
     description:
-      '"Be miserable. Or motivate yourself. Whatever has to be done, it’s always your choice." Wayne Dyer',
+      '"Be miserable. Or motivate yourself. Whatever has to be done, it’s always your choice." – Wayne Dyer',
     img: Promises,
     link: "https://condescending-boyd-992176.netlify.com/",
     github: "https://github.com/Zmagis/New-Year-Promises"
