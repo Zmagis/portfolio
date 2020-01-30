@@ -1,4 +1,3 @@
-import heart from "../Images/zmagis.JPG";
 import Lust from "../Images/projects/Lust.png";
 import Chat from "../Images/projects/chat.png";
 import QuoteMachine from "../Images/projects/Qoute.png";
@@ -57,14 +56,6 @@ export const list = [
     img: QuoteMachine,
     link: "https://nervous-kirch-642b5a.netlify.com",
     github: "https://github.com/Zmagis/Qoute-Machine-"
-  },
-  {
-    id: 0,
-    name: "New Project",
-    description: "Currently building...",
-    img: heart,
-    link: "https://.netlify.com",
-    github: "https://github.com/"
   }
 ];
 

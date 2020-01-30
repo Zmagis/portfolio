@@ -5,7 +5,7 @@ import see from "../Images/see.png";
 
 function Card({ title, description, link, github, image }) {
   return (
-    <div className=" card ">
+    <div className="p-2 card ">
       <div className=" flip-card">
         <div className=" flip-card-inner">
           <div className="front">
@@ -13,9 +13,9 @@ function Card({ title, description, link, github, image }) {
           </div>
 
           <div className="d-flex flex-column align-items-center justify-content-center back">
-            <h4 className="mb-3">{title}</h4>
-            <p className="ml-4 mr-4">{description}</p>
-            <div>
+            <h5 className="mb-3">{title}</h5>
+            <p className="">{description}</p>
+            <div className="block">
               <a href={github} target="blank">
                 <img src={githubLogo} alt="github logo" className=" link" />
               </a>

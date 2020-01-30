@@ -12,16 +12,16 @@ function AboutMe() {
 
         <div className="d-flex flex-wrap justify-content-center p-3 ">
           {logos.map(logo => (
-            <div key={logo.name} className="m-5">
+            <div key={logo.name} className="logo-container">
               <img className="logo" src={logo.pic} alt="" />
-              <p className="pt-3">{logo.name}</p>
+              <p className="pt-2">{logo.name}</p>
             </div>
           ))}
         </div>
 
-        <div className="m-3 p-4">
+        <div className="m-2 p-2">
           <div className="title">
-            <h2>Mindset</h2>
+            <h3>Mindset</h3>
           </div>
           <p className="p-3 text">
             The most valuable gift is to let yourself do what you love. I have

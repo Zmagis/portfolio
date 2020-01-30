@@ -1,4 +1,5 @@
 import React from "react";
+import Roll from "react-reveal/Roll";
 
 function Contact() {
   return (
@@ -6,11 +7,13 @@ function Contact() {
       id="contact"
       className="text-center d-flex align-items-center justify-content-center screen "
     >
-      <div className="w-50 contact">
+      <div className="contact">
         <div className="title">
           <h1>Contact</h1>
         </div>
-        <p className="text contact-text">Email: eglegustaite@gmail.com</p>
+        <Roll cascade>
+          <p className="text contact-text">Email: eglegustaite@gmail.com</p>
+        </Roll>
       </div>
     </div>
   );

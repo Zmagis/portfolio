@@ -2,6 +2,7 @@
 @import "./greetingPhotos";
 @import "./projects";
 @import "./flippinCard";
+@import "./about";
 
 @mixin bg-image($url) {
   background-image: url($url);
@@ -30,8 +31,8 @@ body::-webkit-scrollbar {
 }
 
 .logo {
-  height: 4rem;
-  width: 3rem;
+  height: 50px;
+  width: 40px;
   filter: drop-shadow(2px 4px 2px #0008);
 }
 
@@ -44,17 +45,15 @@ body::-webkit-scrollbar {
   overflow-y: hidden;
 }
 
-.about {
-  // width: 40% !important;
-  background: rgba(24, 16, 1, 0.418);
-  border-radius: 10px;
-}
-
 #contact {
   @include bg-image("../Images/stars-bg.jpg");
   letter-spacing: 0.2em;
   .contact {
     background-color: rgba(17, 34, 65, 0.76);
+    width: 50%;
+    @media screen and (max-width: 600px) {
+      width: 95%;
+    }
   }
 }
 
