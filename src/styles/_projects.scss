@@ -1,43 +1,13 @@
-.projects-container {
-  margin: auto;
+.projects-box {
+  margin: 15vh auto 15vh auto;
 }
 
 .projects {
   margin-top: 1em;
-  @media (max-width: 400px) {
-    width: 350px;
-  }
 }
 
-@media only screen and (max-width: 1855px) {
-  .projects {
-    width: 800px;
-    border-radius: 10px;
-    overflow-y: scroll;
-    background-color: rgba(0, 0, 0, 0.315);
-    display: block;
-  }
-
-  /* width */
-  .projects::-webkit-scrollbar {
-    width: 20px;
-  }
-
-  /* Track */
-  .projects::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px rgb(109, 115, 141);
-    border-radius: 10px;
-  }
-
-  /* Handle */
-  .projects::-webkit-scrollbar-thumb {
-    background: rgba(41, 102, 117, 0.952);
-    border-radius: 10px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .projects {
-    width: 340px;
+@media (max-width: 660px) {
+  .projects-box {
+    margin-top: 25vh;
   }
 }

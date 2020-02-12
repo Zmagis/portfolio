@@ -1,19 +1,28 @@
-import Lust from "../Images/projects/Lust.png";
-import Chat from "../Images/projects/chat.png";
-import QuoteMachine from "../Images/projects/Qoute.png";
-import Promises from "../Images/projects/promises.png";
-import Hike from "../Images/projects/TheHike.png";
+import Lust from "../../Images/projects/Lust.png";
+import Chat from "../../Images/projects/chat.png";
+import QuoteMachine from "../../Images/projects/Qoute.png";
+import Promises from "../../Images/projects/promises.png";
+import Hike from "../../Images/projects/TheHike.png";
+import ImageApp from "../../Images//projects/images.png";
 
-import html from "../Images/logos/html.png";
-import css from "../Images/logos/css.png";
-import js from "../Images/logos/js.png";
-import react from "../Images/logos/react.png";
-import redux from "../Images/logos/redux.png";
-import bootstrap from "../Images/logos/bootstrap.png";
-import gimp from "../Images/logos/gimp.png";
-import sass from "../Images/logos/sass.png";
+import html from "../../Images/logos/html.png";
+import css from "../../Images/logos/css.png";
+import js from "../../Images/logos/js.png";
+import react from "../../Images/logos/react.png";
+import redux from "../../Images/logos/redux.png";
+import bootstrap from "../../Images/logos/bootstrap.png";
+import gimp from "../../Images/logos/gimp.png";
+import sass from "../../Images/logos/sass.png";
 
 export const list = [
+  {
+    id: 6,
+    name: "Image App",
+    description: "Image search application.",
+    img: ImageApp,
+    link: "https://zmagis.github.io/image-app/",
+    github: "https://github.com/Zmagis/image-app"
+  },
   {
     id: 5,
     name: "The Hike",

@@ -1,7 +1,7 @@
 import React from "react";
 
-import githubLogo from "../Images/logos/github.png";
-import see from "../Images/see.png";
+import githubLogo from "../../Images/logos/github.png";
+import see from "../../Images/see.png";
 
 function Card({ title, description, link, github, image }) {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
 
-import { logos } from "./Lists";
+import { logos } from "./projects/Lists";
 
 function AboutMe() {
   return (
     <div id="about" className="container-fluid text-center d-flex screen  ">
-      <div className=" h-75 d-flex flex-column align-items-center justify-content-center projects-container about">
+      <div className=" h-75 d-flex flex-column align-items-center justify-content-center projects-box about">
         <div className="">
           <h2>Skills</h2>
         </div>
