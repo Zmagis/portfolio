@@ -4,6 +4,7 @@ import QuoteMachine from "../../Images/projects/Qoute.png";
 import Promises from "../../Images/projects/promises.png";
 import Hike from "../../Images/projects/TheHike.png";
 import ImageApp from "../../Images//projects/images.png";
+import Form from "../../Images/projects/form.png";
 
 import html from "../../Images/logos/html.png";
 import css from "../../Images/logos/css.png";
@@ -15,6 +16,14 @@ import gimp from "../../Images/logos/gimp.png";
 import sass from "../../Images/logos/sass.png";
 
 export const list = [
+  {
+    id: 7,
+    name: "Form App",
+    description: "Form application (firebase)",
+    img: Form,
+    link: "https://zmagis.github.io/form",
+    github: "https://github.com/Zmagis/form"
+  },
   {
     id: 6,
     name: "Image App",
