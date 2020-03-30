@@ -19,7 +19,8 @@ export const list = [
   {
     id: 7,
     name: "Form App",
-    description: "Form application (firebase)",
+    description:
+      "Write your question or leave your thoughts to others to see (firebase)",
     img: Form,
     link: "https://zmagis.github.io/form",
     github: "https://github.com/Zmagis/form"
@@ -38,7 +39,7 @@ export const list = [
     description:
       "“To keep the body in good health is a duty, otherwise we shall not be able to keep our mind strong and clear.” – Buddha",
     img: Hike,
-    link: "http://debonair-banana.surge.sh/",
+    link: "https://optimistic-bhabha-7ca5a0.netlify.com/",
     github: "https://github.com/Zmagis/The-Hike"
   },
   {
