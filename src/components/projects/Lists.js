@@ -20,7 +20,7 @@ export const list = [
     id: 7,
     name: "Form App",
     description:
-      "Write your question or leave your thoughts to others to see (firebase)",
+      "Write your question or leave your thoughts for others to see. (firebase)",
     img: Form,
     link: "https://zmagis.github.io/form",
     github: "https://github.com/Zmagis/form"
