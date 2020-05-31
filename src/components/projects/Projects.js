@@ -15,12 +15,13 @@ function Projects() {
         </div>
 
         <div className="d-flex flex-wrap align-items-center justify-content-center projects">
-          {list.map(project => (
+          {list.map((project) => (
             <div key={project.id} className="">
               <Card
                 title={project.name}
                 image={project.img}
                 description={project.description}
+                tech={project.tech}
                 github={project.github}
                 link={project.link}
               />

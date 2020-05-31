@@ -29,9 +29,6 @@ function Nav() {
             Contact
           </a>
         </li>
-        {/* <Link to="./contact">
-          <li className="nav-link">Contact</li>
-        </Link> */}
       </ul>
     </nav>
   );

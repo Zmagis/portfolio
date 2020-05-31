@@ -93,6 +93,12 @@ nav {
 .card h5 {
   color: #201d1d;
   padding-top: 4px;
+  font-weight: bold;
+}
+
+i {
+  color: #201d1d;
+  font-size: 16px;
 }
 
 .flip-card {
@@ -224,10 +230,6 @@ nav {
 
 * p {
   font-size: 1.2rem;
-}
-
-body::-webkit-scrollbar {
-  display: none;
 }
 
 .logo {
