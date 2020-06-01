@@ -6,6 +6,7 @@ import Hike from "../../Images/projects/TheHike.png";
 import ImageApp from "../../Images//projects/images.png";
 import Form from "../../Images/projects/form.png";
 import Invest from "../../Images/projects/Invest.png";
+import Shoperfly from "../../Images/projects/shoperfly.png";
 import Zmagis from "../../Images/zmagis.JPG";
 
 import html from "../../Images/logos/html.png";
@@ -26,7 +27,7 @@ export const list = [
     description:
       "Shop Website with admin page. Please contact for live demonstration (eglegustaite@gmail.com).",
     tech: "ReactJS, Node, SQL",
-    img: Zmagis,
+    img: Shoperfly,
     link: "",
     github: "https://github.com/Zmagis/shop",
   },

@@ -4,16 +4,17 @@
 
 .round-photo {
   border-radius: 100%;
-  height: 26rem;
+  height: 24rem;
   border: grey 2px ridge;
-  @media screen and (max-width: 400px) {
-    height: 15rem;
+  @media screen and (max-width: 500px) {
+    height: 12rem;
+    background-color: white;
   }
 }
 
 .round-photo1 {
   border-radius: 100%;
-  height: 14rem;
+  height: 12rem;
   border: grey 2px ridge;
   @media only screen and (max-width: 1235px) {
     display: none;
@@ -22,7 +23,7 @@
 
 .round-photo2 {
   border-radius: 100%;
-  height: 5rem;
+  height: 4rem;
   border: grey 2px ridge;
   @media only screen and (max-width: 1235px) {
     display: none;
@@ -30,10 +31,19 @@
 }
 
 .greeting-text {
-  width: 50%;
-  @media (max-width: 600px) {
-    font-size: 16px;
-    width: 90%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  margin: auto;
+  @media (max-width: 750px) {
+    width: 250px;
+  }
+}
+
+.greeting-text p {
+  @media (max-width: 750px) {
+    font-size: 12px !important;
   }
 }
 

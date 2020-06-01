@@ -38,11 +38,13 @@ function Greeting() {
           />
         </div>
         <Fade duration={5000}>
-          <p className="m-auto greeting-text" style={{ letterSpacing: "2px" }}>
-            Hi! I'm Eglė, passionate, self-driven, self-taught front-end web
-            developer. Always eager to learn new cutting edge technologies to
-            create and find the most efficient solution.
-          </p>
+          <div className="greeting-text">
+            <p>
+              Hi! I'm Eglė, passionate, self-driven, self-taught front-end web
+              developer. Always eager to learn new cutting edge technologies to
+              create and find the most efficient solution.
+            </p>
+          </div>
         </Fade>
       </div>
     </div>
