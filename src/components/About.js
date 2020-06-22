@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { logos } from "./projects/Lists";
+import { logos } from './projects/Lists';
 
 function AboutMe() {
   return (
@@ -10,8 +10,8 @@ function AboutMe() {
           <h2>Skills</h2>
         </div>
 
-        <div className="d-flex flex-wrap justify-content-center p-3 ">
-          {logos.map(logo => (
+        <div className="logos-container">
+          {logos.map((logo) => (
             <div key={logo.name} className="logo-container">
               <img className="logo" src={logo.pic} alt="" />
               <p className="pt-2">{logo.name}</p>
