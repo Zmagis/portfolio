@@ -1,11 +1,11 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
-import me from "../Images/egle-min.jpg";
-import rightL from "../Images/rightL-min.jpg";
-import rightS from "../Images/rightS-min.jpg";
-import leftL from "../Images/leftL-min.jpg";
-import leftS from "../Images/leftS-min.jpg";
+import me from '../Images/egle-min.jpg';
+import rightL from '../Images/rightL-min.jpg';
+import rightS from '../Images/rightS-min.jpg';
+import leftL from '../Images/leftL-min.jpg';
+import leftS from '../Images/leftS-min.jpg';
 
 function Greeting() {
   return (
@@ -14,9 +14,7 @@ function Greeting() {
       className="container-fluid text-center d-flex align-items-center justify-content-center  screen "
     >
       <div className="">
-        <Fade duration={5000}>
-          <h2 className="mb-3 greeting-title">Front-end Web Developer</h2>
-        </Fade>
+        <h2 className="mb-3 greeting-title">Front-end Web Developer</h2>
 
         <div className="">
           <img className="round-photo2 img-responsive m-5" src={leftS} alt="" />

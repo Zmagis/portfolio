@@ -27,7 +27,7 @@ export const list = [
     tech: 'ReactJS, Redux, Node, SQL',
     img: Shoperfly,
     link: '',
-    github: 'https://github.com/Zmagis/shop',
+    github: 'https://github.com/Zmagis/Shop-App',
   },
   {
     id: 9,
