@@ -68,8 +68,17 @@ i {
 .back {
   background-color: rgb(255, 247, 223);
   border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: rgb(80, 80, 80);
   transform: rotateY(180deg);
+  .title {
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
 }
 .front {
   background-color: rgb(44, 43, 43) !important;

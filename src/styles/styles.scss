@@ -1,8 +1,9 @@
-@import "./nav";
-@import "./greetingPhotos";
-@import "./projects";
-@import "./flippinCard";
-@import "./about";
+@import './nav';
+@import './home';
+@import './projects';
+@import './flippinCard';
+@import './about';
+@import './contact';
 
 @mixin bg-image($url) {
   background-image: url($url);
@@ -12,7 +13,9 @@
 }
 
 * {
-  font-family: "Inria Serif", serif !important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inria Serif', serif !important;
   color: rgb(217, 220, 230);
   ::selection {
     color: rgb(34, 113, 133);
@@ -23,9 +26,9 @@
   }
 }
 
-// body::-webkit-scrollbar {
-//   display: none;
-// }
+body {
+  overflow-x: hidden;
+}
 
 .logo {
   height: 50px;
@@ -39,14 +42,21 @@
 
 .screen {
   height: 100vh;
+  width: 100vw;
   overflow-y: hidden;
 }
 
 #contact {
-  @include bg-image("../Images/stars-bg.jpg");
+  @include bg-image('../Images/stars-bg.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 0.2em;
   .contact {
     background-color: rgba(17, 34, 65, 0.76);
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
     width: 50%;
     @media screen and (max-width: 600px) {
       width: 95%;
@@ -55,7 +65,7 @@
 }
 
 #projects {
-  @include bg-image("../Images/birds-bg.jpg");
+  @include bg-image('../Images/birds-bg.jpg');
   h2 {
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.918));
     font-size: 2.8rem;
@@ -66,5 +76,5 @@
   }
 }
 #about {
-  @include bg-image("../Images/mountain-bg.jpg");
+  @include bg-image('../Images/mountain-bg.jpg');
 }

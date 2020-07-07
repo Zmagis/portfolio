@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
-import githubLogo from "../../Images/logos/github.png";
-import see from "../../Images/see.png";
+import githubLogo from '../../Images/logos/github.png';
+import see from '../../Images/see.png';
 
 function Card({ title, description, link, github, image, tech }) {
   return (
-    <div className="p-2 card ">
+    <div>
       <div className=" flip-card">
         <div className=" flip-card-inner">
           <div className="front">
             <img className="projectImg" src={image} alt="" />
           </div>
 
-          <div className="d-flex flex-column align-items-center justify-content-center back">
-            <h5 className="mb-3">{title}</h5>
-            <p className="">{description}</p>
+          <div className="back">
+            <h3 className="title">{title}</h3>
+            <p>{description}</p>
             <p>
               <i>{tech}</i>
             </p>
@@ -22,9 +22,11 @@ function Card({ title, description, link, github, image, tech }) {
               <a href={github} target="blank">
                 <img src={githubLogo} alt="github logo" className=" link" />
               </a>
-              <a href={link} target="blank">
-                <img src={see} alt="" className="link" />
-              </a>
+              {link === '' ? null : (
+                <a href={link} target="blank">
+                  <img src={see} alt="" className="link" />
+                </a>
+              )}
             </div>
           </div>
         </div>

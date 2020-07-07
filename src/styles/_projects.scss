@@ -1,9 +1,17 @@
-.projects-box {
-  margin: 15vh auto 15vh auto;
-}
-
 .projects {
   margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0 60px 0;
 }
 
 @media (max-width: 660px) {

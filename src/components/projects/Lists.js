@@ -1,12 +1,14 @@
 import Lust from '../../Images/projects/Lust.png';
+// import Chat from '../../Images/projects/chat.png';
 import QuoteMachine from '../../Images/projects/Qoute.png';
 import Promises from '../../Images/projects/promises.png';
 import Hike from '../../Images/projects/TheHike.png';
-import ImageApp from '../../Images//projects/images.png';
+import ImageApp from '../../Images/projects/images.png';
 import Form from '../../Images/projects/form.png';
 import Invest from '../../Images/projects/Invest.png';
 import Shoperfly from '../../Images/projects/shoperfly.png';
 import Zmagis from '../../Images/zmagis.JPG';
+import Infinite from '../../Images/projects/demo.gif';
 
 import html from '../../Images/logos/html.png';
 import css from '../../Images/logos/css.png';
@@ -20,6 +22,16 @@ import sql from '../../Images/logos/sql.png';
 
 export const list = [
   {
+    id: 11,
+    name: 'Infinite Scroll',
+    description:
+      'A responsive single-page Image App that provides an infinite scroll experience.',
+    tech: 'ReactJS, Node, Flickr API',
+    img: Infinite,
+    link: '',
+    github: 'https://github.com/Zmagis/Infinite-scroll',
+  },
+  {
     id: 10,
     name: 'Shop',
     description:
@@ -27,7 +39,7 @@ export const list = [
     tech: 'ReactJS, Redux, Node, SQL',
     img: Shoperfly,
     link: '',
-    github: 'https://github.com/Zmagis/Shop-App',
+    github: 'https://github.com/Zmagis/shop',
   },
   {
     id: 9,
@@ -44,7 +56,7 @@ export const list = [
     name: 'Investing App',
     description:
       'App to train investing skills. Please contact for live demonstration (eglegustaite@gmail.com).',
-    tech: 'Flask, ReactJs, SQL, IEX Cloud API',
+    tech: 'Flask, ReactJs, SQL',
     img: Invest,
     link: '',
     github: 'https://github.com/Zmagis/stocks',
@@ -95,6 +107,7 @@ export const list = [
     link: 'https://epic-benz-b2d8fe.netlify.com/',
     github: 'https://github.com/Zmagis/Lust',
   },
+
   {
     id: 1,
     name: 'Quote Machine',

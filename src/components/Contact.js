@@ -1,12 +1,9 @@
-import React from "react";
-import Roll from "react-reveal/Roll";
+import React from 'react';
+import Roll from 'react-reveal/Roll';
 
 function Contact() {
   return (
-    <div
-      id="contact"
-      className="text-center d-flex align-items-center justify-content-center screen "
-    >
+    <div id="contact" className="screen">
       <div className="contact">
         <div className="title">
           <h1>Contact</h1>
