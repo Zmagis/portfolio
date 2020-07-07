@@ -9,7 +9,7 @@ function Greeting() {
       <div className="greeting-position">
         <Title />
 
-        <Fade duration={5000} delay={1800}>
+        <Fade duration={5000} delay={550}>
           <p>
             Hi! I'm Eglė, passionate, self-driven, self-taught front-end
             developer. Always eager to learn new cutting edge technologies to
