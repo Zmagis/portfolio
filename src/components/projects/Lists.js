@@ -6,9 +6,10 @@ import Hike from '../../Images/projects/TheHike.png';
 import ImageApp from '../../Images/projects/images.png';
 import Form from '../../Images/projects/form.png';
 import Invest from '../../Images/projects/Invest.png';
-import Shoperfly from '../../Images/projects/shoperfly.png';
+// import Shoperfly from '../../Images/projects/shoperfly.png';
 import Zmagis from '../../Images/zmagis.JPG';
 import Infinite from '../../Images/projects/demo.gif';
+import Shop from '../../Images/projects/shop.gif';
 
 import html from '../../Images/logos/html.png';
 import css from '../../Images/logos/css.png';
@@ -37,7 +38,7 @@ export const list = [
     description:
       'Shop Website with admin page. Please contact for live demonstration (eglegustaite@gmail.com).',
     tech: 'ReactJS, Redux, Node, SQL',
-    img: Shoperfly,
+    img: Shop,
     link: '',
     github: 'https://github.com/Zmagis/shop',
   },
