@@ -66,7 +66,7 @@ export const list = [
     id: 7,
     name: 'Form App',
     description:
-      'An application whose purpose is to fill a form with random thought/question and store them.',
+      'An application whose purpose is to fill a form with random question and store them.',
     tech: 'ReactJS, firebase',
     img: Form,
     link: 'https://zmagis.github.io/form',
@@ -93,7 +93,7 @@ export const list = [
   {
     id: 4,
     name: 'New Year - Fresh Start',
-    description: 'New Year resolution app (to-do app). Created in two days.',
+    description: 'New Year resolution app (to-do app).',
     tech: 'ReactJS, Redux',
     img: Promises,
     link: 'https://condescending-boyd-992176.netlify.com/',
