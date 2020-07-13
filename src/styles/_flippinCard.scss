@@ -53,6 +53,16 @@ a img {
     }
   }
 }
+.description::after {
+  content: '';
+  height: 120px;
+  width: 15px;
+  background-color: rgb(10, 79, 110);
+  // background-color: red;
+  position: absolute;
+  right: -2%;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
 .slide-right {
   right: -50%;
 }

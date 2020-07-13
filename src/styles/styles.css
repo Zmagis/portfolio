@@ -324,6 +324,17 @@ a img {
   color: goldenrod;
 }
 
+.description::after {
+  content: '';
+  height: 120px;
+  width: 15px;
+  background-color: #0a4f6e;
+  position: absolute;
+  right: -2%;
+  -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+          clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
 .slide-right {
   right: -50%;
 }
