@@ -241,6 +241,7 @@ nav li {
       -ms-flex-align: center;
           align-items: center;
   padding: 90px 0 60px 0;
+  width: 100vw;
 }
 
 @media (max-width: 660px) {
@@ -278,9 +279,32 @@ nav li {
   position: absolute;
 }
 
+a div i {
+  height: 58px;
+  width: 58px;
+  background: grey;
+}
+
 a img {
   height: 38px;
   padding: 5px 10px;
+}
+
+.card-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-links a:hover {
+  -webkit-filter: drop-shadow(2px 5px 8px rgba(224, 224, 224, 0.5));
+  filter: drop-shadow(2px 5px 8px rgba(224, 224, 224, 0.5));
 }
 
 .description {
@@ -508,6 +532,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100vw;
 }
 
 #projects h2 {

@@ -67,6 +67,7 @@ body {
 
 #projects {
   @include bg-image('../Images/birds-bg.jpg');
+  width: 100vw;
   h2 {
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.918));
     font-size: 2.8rem;

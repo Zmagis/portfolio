@@ -20,9 +20,26 @@ $image-height: 300px;
   }
 }
 
+a div i {
+  height: 58px;
+  width: 58px;
+  background: grey;
+  // padding: 5px 10px;
+}
 a img {
   height: 38px;
   padding: 5px 10px;
+}
+.card-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    &:hover {
+      -webkit-filter: drop-shadow(2px 5px 8px rgba(224, 224, 224, 0.5));
+      filter: drop-shadow(2px 5px 8px rgba(224, 224, 224, 0.5));
+    }
+  }
 }
 
 .description {

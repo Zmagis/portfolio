@@ -31,10 +31,11 @@ function Card({ title, description, link, github, image, tech }) {
             <i>{tech}</i>
           </p>
           <p>{description}</p>
-          <div>
+          <div className="card-links">
             <a href={github} target="blank">
-              <img src={githubLogo} alt="github logo" />
+              <i class="fab fa-github fa-2x"></i>
             </a>
+
             {link === '' ? null : (
               <a href={link} target="blank">
                 <img src={see} alt="" />

@@ -1,15 +1,16 @@
-import Lust from '../../Images/projects/Lust.png';
+// import Lust from '../../Images/projects/Lust.png';
 // import Chat from '../../Images/projects/chat.png';
-import QuoteMachine from '../../Images/projects/Qoute.png';
+// import QuoteMachine from '../../Images/projects/Qoute.png';
 import Promises from '../../Images/projects/promises.png';
 import Hike from '../../Images/projects/TheHike.png';
 import ImageApp from '../../Images/projects/images.png';
 import Form from '../../Images/projects/form.png';
-import Invest from '../../Images/projects/Invest.png';
+// import Invest from '../../Images/projects/Invest.png';
 // import Shoperfly from '../../Images/projects/shoperfly.png';
-import Zmagis from '../../Images/zmagis.JPG';
+// import Zmagis from '../../Images/zmagis.JPG';
 import Infinite from '../../Images/projects/demo.gif';
 import Shop from '../../Images/projects/shop.gif';
+import Leon from '../../Images/projects/leon2.png';
 
 import html from '../../Images/logos/html.png';
 import css from '../../Images/logos/css.png';
@@ -23,14 +24,14 @@ import sql from '../../Images/logos/sql.png';
 
 export const list = [
   {
-    id: 11,
-    name: 'Infinite Scroll',
+    id: 12,
+    name: 'LeOn',
     description:
-      'A responsive single-page Image App that provides an infinite scroll experience.',
-    tech: 'ReactJS, Node, Flickr API',
-    img: Infinite,
-    link: '',
-    github: 'https://github.com/Zmagis/Infinite-scroll',
+      'A website for students and teachers to make virtual learning process easier. Login as student with username: eglgus or as teacher with username: matram and in both cases password is: password',
+    tech: 'ReactJS, TS, Java',
+    img: Leon,
+    link: 'https://java-menuo-su-it.northeurope.cloudapp.azure.com/',
+    github: '',
   },
   {
     id: 10,
@@ -42,26 +43,26 @@ export const list = [
     link: '',
     github: 'https://github.com/Zmagis/shop',
   },
-  {
-    id: 9,
-    name: 'Chat App',
-    description:
-      'Chat application. Please contact for live demonstration (eglegustaite@gmail.com).',
-    tech: 'Flask, ReactJS, socketio',
-    img: Zmagis,
-    link: '',
-    github: 'https://github.com/Zmagis/Flack',
-  },
-  {
-    id: 8,
-    name: 'Investing App',
-    description:
-      'App to train investing skills. Please contact for live demonstration (eglegustaite@gmail.com).',
-    tech: 'Flask, ReactJs, SQL',
-    img: Invest,
-    link: '',
-    github: 'https://github.com/Zmagis/stocks',
-  },
+  // {
+  //   id: 9,
+  //   name: 'Chat App',
+  //   description:
+  //     'Chat application. Please contact for live demonstration (eglegustaite@gmail.com).',
+  //   tech: 'Flask, ReactJS, socketio',
+  //   img: Zmagis,
+  //   link: '',
+  //   github: 'https://github.com/Zmagis/Flack',
+  // },
+  // {
+  //   id: 8,
+  //   name: 'Investing App',
+  //   description:
+  //     'App to train investing skills. Please contact for live demonstration (eglegustaite@gmail.com).',
+  //   tech: 'Flask, ReactJs, SQL',
+  //   img: Invest,
+  //   link: '',
+  //   github: 'https://github.com/Zmagis/stocks',
+  // },
   {
     id: 7,
     name: 'Form App',
@@ -71,6 +72,16 @@ export const list = [
     img: Form,
     link: 'https://zmagis.github.io/form',
     github: 'https://github.com/Zmagis/form',
+  },
+  {
+    id: 11,
+    name: 'Infinite Scroll',
+    description:
+      'A responsive single-page Image App that provides an infinite scroll experience.',
+    tech: 'ReactJS, Node, Flickr API',
+    img: Infinite,
+    link: '',
+    github: 'https://github.com/Zmagis/Infinite-scroll',
   },
   {
     id: 6,
@@ -99,25 +110,25 @@ export const list = [
     link: 'https://condescending-boyd-992176.netlify.com/',
     github: 'https://github.com/Zmagis/New-Year-Promises',
   },
-  {
-    id: 3,
-    name: 'Lust',
-    description: 'Hungry? Search for the best place to eat!',
-    tech: 'ReactJS, Yelp Api',
-    img: Lust,
-    link: 'https://epic-benz-b2d8fe.netlify.com/',
-    github: 'https://github.com/Zmagis/Lust',
-  },
+  // {
+  //   id: 3,
+  //   name: 'Lust',
+  //   description: 'Hungry? Search for the best place to eat!',
+  //   tech: 'ReactJS, Yelp Api',
+  //   img: Lust,
+  //   link: 'https://epic-benz-b2d8fe.netlify.com/',
+  //   github: 'https://github.com/Zmagis/Lust',
+  // },
 
-  {
-    id: 1,
-    name: 'Quote Machine',
-    description: 'Application generates random qoutes',
-    tech: 'ReactJS',
-    img: QuoteMachine,
-    link: 'https://nervous-kirch-642b5a.netlify.com',
-    github: 'https://github.com/Zmagis/Qoute-Machine-',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Quote Machine',
+  //   description: 'Application generates random qoutes',
+  //   tech: 'ReactJS',
+  //   img: QuoteMachine,
+  //   link: 'https://nervous-kirch-642b5a.netlify.com',
+  //   github: 'https://github.com/Zmagis/Qoute-Machine-',
+  // },
 ];
 
 export const logos = [
